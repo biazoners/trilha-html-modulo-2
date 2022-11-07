@@ -32,28 +32,41 @@
 
         <div class="main">
             <div class="header">
-                <img src="./assets/imgs/header1.png" alt="" width="1020">
+                <img src="./assets/imgs/header3.jpg" alt="" width="1020">
                
             </div>
     
             <div class="content">
                 <h2>CLÍNICA ORTOPÉDICA FICTÍCIA</h2> 
-                <h2>Contato</h2>
-            <h3>Clínica Lorem Ipsum<h3>
-            <h4> Telefone:</h4>            
-            <p>Os telefones de contato (celular e whatsapp)</p> 
-            <h4>Endereço</h4>
-            <p>Endereço completo da clínica</p>
+                            
+            <h3> Telefone:</h3>            
+            <p>telefone: (11) 2222-2222</br> 
+               Whatsapp: (11) 99999-9999</p>
+            <h3>Endereço</h3>
+            <p>Avenida XZE,1250 - Vila Joaquina, São Paulo SP - CEP 000000-000</p>
 
-            [[[googlemaps]]]
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1958340837573!2d-46.65807058497815!3d-23.561409067479218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sMuseu%20de%20Arte%20de%20S%C3%A3o%20Paulo%20Assis%20Chateaubriand!5e0!3m2!1spt-BR!2sbr!4v1667849717980!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <h4>Fale conosco</h4>
-            ((formulário))
-            <label>Nome:</label> <input type="text"/><br>
-            <label>E-mail:</label> <input type="email"/><br>
-            <label>Assunto:</label> <input type="text"/><br>
-            <label>Mensagem:</label> <input type="textarea"/><br>
-            <button type="submit">Enviar</button><button type="reset">Limpar formulário.</button>
+            <h3>Fale conosco</h3>
+            <form name="contato" target="_blank" method="get" action="#">
+            <p><label>Nome:</label> <br>
+            <input type="text" name="nome"/></p>
+            
+            <p><label>E-mail:</label><br> 
+            <input type="email" name="e-mail"/></p>
+
+            <p><label>Já é paciente?</label><br>
+            <input type="radio" name="paciente" value="sim">Sim 
+            <input type="radio"name="paciente" value="não">Não</p>
+            
+            <p><label>Assunto:</label><br> 
+            <input type="text" name="assunto" rows="10"/></p>
+            
+            <p><label>Mensagem:</label> <br>
+            <textarea name="mensagem" rows="10" cols="60"></textarea></p>
+            <button type="submit">Enviar</button><button type="reset">Limpar formulário</button>
+
+            </form>
             
                 
 
